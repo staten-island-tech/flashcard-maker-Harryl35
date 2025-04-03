@@ -1,17 +1,22 @@
 import json
 
-class Car:
-    def __init__(self, make, model, year, image=None):
-        self.make = make
-        self.model = model
-        self.year = year
-        self.image = image
-    
+class teacher:
+    def __init__(self, question, answer):
+        self.question = question
+        self.answer = answer
+    def dict_self 
+
+        
+
+
+
+"""     
     def display_info(self):
         return f"{self.year} {self.make} {self.model}"
     
     def to_dict(self):
         return {"make": self.make, "model": self.model, "year": self.year, "image": self.image}
+
 cars = [
     Car("Toyota", "Camry", 2023, "camry_image.jpg"),
     Car("Honda", "Civic", 2022, "civic_image.jpg"),
@@ -38,5 +43,5 @@ cars_data.append(new_car.to_dict())
 
 # Save updated data back to file
 with open("cars.json", "w") as file:
-    json.dump(cars_data, file, indent=4)    
+    json.dump(cars_data, file, indent=4)     """
   
