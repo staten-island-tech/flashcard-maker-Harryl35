@@ -23,7 +23,7 @@ def teacher_mode():
         answer = input("Answer: ")
         cards[question] = answer
     save_flashcards(cards)
-    print("Flashcards saved!")
+    print("Flashcards saved")
 
 def student_mode():
     cards = load_flashcards()
